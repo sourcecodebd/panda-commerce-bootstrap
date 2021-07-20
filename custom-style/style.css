@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap');
+
+.search-bar input{
+    width: 509px;
+    height: 48px;
+    background-color: #F1F1F1;
+    color: #CCCCCC;
+    border: none;
+    border-radius: 66px;
+    padding: 12px 0px 12px 28px;
+    font-family: 'Quicksand', sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.fa-search {
+    position: relative;
+    left: -40px;
+    color: #CCCCCC;
+    font-size: 21px
+}
+
+@media screen and (max-width: 768px) {
+    .search-bar input {
+        width: 100%
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .search-bar input {
+        width: 350px
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .search-bar input {
+        width: 350px
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+    .search-bar input {
+        width: 509px
+    }
+}
+
+@media screen and (min-width: 1301px) and (max-width: 1405px) {
+    .search-bar input {
+        width: 509px
+    }
+}
+
+@media screen and (min-width: 1406px) and (max-width: 1440px) {
+    .search-bar input {
+        width: 690px
+    }
+}
+
+.btn-arrow-pink {
+    width: 168px;
+    height: 52px;
+    border: 1px solid #FF136F;
+    border-radius: 6px;
+    background-color: #FF136F;
+    font-family: inter;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #FF512F 0%, #DD2476 51%, #FF512F 100%)
+}
+
+.btn-grad {
+    width: 168px;
+    height: 52px;
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    border: none;
+    font-family: inter;
+    font-size: 16px;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.gutter {
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    border-radius: 12px;
+    height: 120px;
+}
+
+.orange {
+    background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+}
+
+.pink {
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+
+.blue {
+    background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+}
+
+.card-shoes {
+    border: 1px solid white;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.subscribe {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+}
+
+.form-control {
+    width: 100%;
+    height: 52px;
+}
+
+.row-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 150px
+}
